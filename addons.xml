@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.audio.hypem_com" name="Hype Machine" version="1.0.6" provider-name="AddonScriptorDE">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Latest songs from music blogs worldwide</summary>
+        <language></language>
+        <description lang="en">Latest songs from music blogs worldwide</description>
+        <website>http://www.hypem.com</website>
+        <source>https://github.com/AddonScriptorDE/plugin.audio.hypem_com</source>
+        <forum>http://forum.xbmc.org/showthread.php?tid=171980</forum>
+        <email>AddonScriptorDE at yahoo dot de</email>
+    </extension>
+</addon>
+
+<addon id="plugin.image.reddit_com" name="Reddit.com" version="1.0.3" provider-name="AddonScriptorDE">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>image</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Watch images from reddit.com - Add/remove reddits - Search for images/reddits</summary>
+        <language></language>
+        <description lang="en">Watch images from reddit.com - Add/remove reddits - Search for images/reddits</description>
+        <website>http://www.reddit.com</website>
+        <source>https://github.com/AddonScriptorDE/plugin.image.reddit_com</source>
+        <forum>http://forum.xbmc.org/showthread.php?tid=</forum>
+        <email>AddonScriptorDE at yahoo dot de</email>
+    </extension>
+</addon>
+
+<addon id="plugin.program.chrome.launcher" name="Chrome Launcher" version="1.0.5" provider-name="AddonScriptorDE">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Launch websites via Chrome in Kiosk-mode</summary>
+        <language></language>
+        <description lang="en">Launch websites via Chrome in Kiosk-mode</description>
+        <website></website>
+        <source>https://github.com/AddonScriptorDE/plugin.program.chrome.starter</source>
+        <forum>http://forum.xbmc.org/showthread.php?tid=170965</forum>
+        <email>AddonScriptorDE at yahoo dot de</email>
+    </extension>
+</addon>
+
+<addon id="plugin.program.webbrowser" name="XBMC WebBrowser" version="1.0.9" provider-name="AddonScriptorDE">
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>windx</platform>
+        <summary lang="en">A WebBrowser with mouse control via keyboard/remote and some other useful features</summary>
+        <summary lang="de">Ein WebBrowser mit Maussteuerung per Tastatur/Fernbedienung und ein paar weiteren Features</summary>
+        <language></language>
+        <description lang="en">A WebBrowser with mouse control via keyboard/remote and some other useful features</description>
+        <description lang="de">Ein WebBrowser mit Maussteuerung per Tastatur/Fernbedienung und ein paar weiteren Features</description>
+        <website></website>
+        <source>https://github.com/AddonScriptorDE/plugin.program.webbrowser</source>
+        <forum>http://forum.xbmc.org/showthread.php?tid=162544</forum>
+        <email>AddonScriptorDE at yahoo dot de</email>
+    </extension>
+</addon>
+
+<addon id="plugin.video.ardmediathek_de" name="ARD Mediathek" version="2.0.6" provider-name="AddonScriptorDE">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="de">Das Erste, Einsfestival, EinsPlus, Phoenix, WDR, SWR, HR, MDR, NDR, RBB, BR, ... Mediathek</summary>
+        <summary lang="en">Das Erste, Einsfestival, EinsPlus, Phoenix, WDR, SWR, HR, MDR, NDR, RBB, BR, ... Media Library</summary>
+        <language>de</language>
+        <description lang="de">Das Erste, Einsfestival, EinsPlus, Phoenix, WDR, SWR, HR, MDR, NDR, RBB, BR, ... Mediathek</description>
+        <description lang="en">Das Erste, Einsfestival, EinsPlus, Phoenix, WDR, SWR, HR, MDR, NDR, RBB, BR, ... Media Library</description>
+        <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+        <website></website>
+        <source>https://github.com/AddonScriptorDE/plugin.video.ardmediathek_de</source>
+        <forum>http://forum.xbmc.org/showthread.php?tid=132563</forum>
+        <email>AddonScriptorDE at yahoo dot de</email>
+    </extension>
+</addon>
+
+<addon id="plugin.video.atv_at" name="ATV.at" version="2.0.3" provider-name="AddonScriptorDE">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="de">ATV.at Mediathek</summary>
+        <summary lang="en">ATV.at media library</summary>
+        <language>de</language>
+        <description lang="de">ATV.at Mediathek</description>
+        <description lang="en">ATV.at media library</description>
+        <website>http://atv.at</website>
+        <source>https://github.com/AddonScriptorDE/plugin.video.atv_at</source>
+        <forum>http://forum.xbmc.org/showthread.php?tid=132563</forum>
+        <email>AddonScriptorDE at yahoo dot de</email>
+    </extension>
+</addon>
+
+<addon id="plugin.video.discovery_com" name="Discovery Networks" version="2.0.2" provider-name="AddonScriptorDE">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="plugin.video.howstuffworks_com" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Watch news, clips and full episodes on Discovery Network Channels (+AnimalPlanet Live streams)</summary>
+        <language>en</language>
+        <description lang="en">Watch news, clips and full episodes on Discovery Network Channels (+AnimalPlanet Live streams)</description>
+        <website>http://www.discovery.com</website>
+        <source>https://github.com/AddonScriptorDE/plugin.video.discovery_com</source>
+        <forum>http://forum.xbmc.org/showthread.php?tid=171876</forum>
+        <email>AddonScriptorDE at yahoo dot de</email>
+    </extension>
+</addon>
+
+<addon id="plugin.video.euronews_com" name="euronews.com" version="2.0.4" provider-name="AddonScriptorDE">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Livestream and latest news videos from euronews.com | Available languages: English, Greek, French, German, Italian, Spanish, Portuguese, Polish, Russian, Ukrainian, Turkish, Arabic and Persian</summary>
+        <language></language>
+        <description lang="en">Livestream and latest news videos from euronews.com | Available languages: English, Greek, French, German, Italian, Spanish, Portuguese, Polish, Russian, Ukrainian, Turkish, Arabic and Persian</description>
+        <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+        <website>http://www.euronews.com</website>
+        <source>https://github.com/AddonScriptorDE/plugin.video.euronews_com</source>
+        <forum>http://forum.xbmc.org/showthread.php?tid=157182</forum>
+        <email>AddonScriptorDE at yahoo dot de</email>
+    </extension>
+</addon>
+
+<addon id="plugin.video.howstuffworks_com" name="HowStuffWorks.com" version="2.0.3" provider-name="AddonScriptorDE">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Learn How Everything Works!</summary>
+        <language>en</language>
+        <description lang="en">Learn How Everything Works!</description>
+        <website>http://www.howstuffworks.com</website>
+        <source>https://github.com/AddonScriptorDE/plugin.video.howstuffworks_com</source>
+        <forum>http://forum.xbmc.org/showthread.php?tid=137984</forum>
+        <email>AddonScriptorDE at yahoo dot de</email>
+    </extension>
+</addon>
+
+<addon id="plugin.video.hypem_com" name="Hype Machine" version="1.0.0" provider-name="AddonScriptorDE">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Latest songs from music blogs worldwide</summary>
+        <language></language>
+        <description lang="en">Latest songs from music blogs worldwide</description>
+        <website>http://www.hypem.com</website>
+        <source>https://github.com/AddonScriptorDE/plugin.video.hypem_com</source>
+        <forum>http://forum.xbmc.org/showthread.php?tid=</forum>
+        <email>AddonScriptorDE at yahoo dot de</email>
+    </extension>
+</addon>
+
+<addon id="plugin.video.lovefilm_com" name="LoveFilm.com" version="1.0.2" provider-name="AddonScriptorDE">
+    <requires>
+        <import addon="plugin.program.webbrowser" version="1.0.0"/>
+        <import addon="plugin.program.chrome.launcher" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Watch videos on LoveFilm.com</summary>
+        <language>en</language>
+        <description lang="en">Watch videos on LoveFilm.com</description>
+        <website></website>
+        <source>https://github.com/AddonScriptorDE/plugin.video.lovefilm_com</source>
+        <forum>http://forum.xbmc.org/showthread.php?tid=</forum>
+        <email>AddonScriptorDE at yahoo dot de</email>
+    </extension>
+</addon>
+
+<addon id="plugin.video.lovefilm_de" name="LoveFilm.de" version="1.0.7" provider-name="AddonScriptorDE">
+    <requires>
+        <import addon="plugin.program.webbrowser" version="1.0.0"/>
+        <import addon="plugin.program.chrome.launcher" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Watch videos on LoveFilm.de</summary>
+        <summary lang="de">Videos auf LoveFilm.de schauen</summary>
+        <language>de</language>
+        <description lang="en">Watch videos on LoveFilm.de</description>
+        <description lang="de">Videos auf LoveFilm.de schauen</description>
+        <website></website>
+        <source>https://github.com/AddonScriptorDE/plugin.video.lovefilm_de</source>
+        <forum>http://forum.xbmc.org/showthread.php?tid=</forum>
+        <email>AddonScriptorDE at yahoo dot de</email>
+    </extension>
+</addon>
+
+<addon id="plugin.video.myspass_de" name="MySpass.de" version="2.0.2" provider-name="AddonScriptorDE">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="de">Schlag den Raab/Star, TV total, Elton vs. Simon, Pastewka, Dr. Psycho, Stromberg, South Park, Spongebob und vieles mehr...</summary>
+        <summary lang="en">Schlag den Raab/Star, TV total, Elton vs. Simon, Pastewka, Dr. Psycho, Stromberg, South Park, Spongebob and much more...</summary>
+        <language>de</language>
+        <description lang="de">Schlag den Raab/Star, TV total, Elton vs. Simon, Pastewka, Dr. Psycho, Stromberg, South Park, Spongebob und vieles mehr...</description>
+        <description lang="en">Schlag den Raab/Star, TV total, Elton vs. Simon, Pastewka, Dr. Psycho, Stromberg, South Park, Spongebob and much more...</description>
+        <website>http://atv.at</website>
+        <source>https://github.com/AddonScriptorDE/plugin.video.myspass_de</source>
+        <forum>http://forum.xbmc.org/showthread.php?tid=132563</forum>
+        <email>AddonScriptorDE at yahoo dot de</email>
+    </extension>
+</addon>
+
+<addon id="plugin.video.reddit_tv" name="Reddit.com" version="1.1.6" provider-name="AddonScriptorDE">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="plugin.video.youtube" version="3.0.0"/>
+        <import addon="plugin.video.vimeo" version="2.3.0"/>
+        <import addon="plugin.video.dailymotion_com" version="1.0.0"/>
+        <import addon="script.module.simple.downloader" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Watch videos from reddit.com - Add/remove reddits - Search for videos/reddits - AutoPlay all/unwatched/unfinished videos</summary>
+        <language></language>
+        <description lang="en">Watch videos from reddit.com - Add/remove reddits - Search for videos/reddits - AutoPlay all/unwatched/unfinished videos</description>
+        <website>http://www.reddit.com</website>
+        <source>https://github.com/AddonScriptorDE/plugin.video.reddit_tv</source>
+        <forum>http://forum.xbmc.org/showthread.php?tid=170603</forum>
+        <email>AddonScriptorDE at yahoo dot de</email>
+    </extension>
+</addon>
+
+<addon id="plugin.video.tageswebschau" name="WochenWEBschau" version="2.0.7" provider-name="AddonScriptorDE">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="plugin.video.youtube" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="de">Die neuesten Web-Nachrichten</summary>
+        <summary lang="en">Latest Web-News</summary>
+        <language>de</language>
+        <description lang="de">Die neuesten Web-Nachrichten</description>
+        <description lang="en">Latest Web-News</description>
+        <website>http://wochenwebschau.de</website>
+        <source>https://github.com/AddonScriptorDE/plugin.video.tageswebschau</source>
+        <forum>http://forum.xbmc.org/showthread.php?tid=132563</forum>
+        <email>AddonScriptorDE at yahoo dot de</email>
+    </extension>
+</addon>
+
+<addon id="plugin.video.watchever_de" name="Watchever.de" version="1.0.3" provider-name="AddonScriptorDE">
+    <requires>
+        <import addon="plugin.program.webbrowser" version="1.0.0"/>
+        <import addon="plugin.program.chrome.launcher" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Watch videos on Watchever.de</summary>
+        <summary lang="de">Videos auf Watchever.de schauen</summary>
+        <language>de</language>
+        <description lang="en">Watch videos on Watchever.de</description>
+        <description lang="de">Videos auf Watchever.de schauen</description>
+        <website></website>
+        <source>https://github.com/AddonScriptorDE/plugin.video.watchever_de</source>
+        <forum>http://forum.xbmc.org/showthread.php?tid=</forum>
+        <email>AddonScriptorDE at yahoo dot de</email>
+    </extension>
+</addon>
+
+<addon id="plugin.video.youtube.billboard" name="YouTube Billboard" version="1.0.9" provider-name="AddonScriptorDE">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="plugin.video.youtube" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Play Billboard charts via YouTube</summary>
+        <language></language>
+        <description lang="en">Play Billboard charts via YouTube</description>
+        <website>http://www.youtube.com</website>
+        <source>https://github.com/AddonScriptorDE/plugin.video.youtube.billboard</source>
+        <forum>http://forum.xbmc.org/showthread.php?tid=171123</forum>
+        <email>AddonScriptorDE at yahoo dot de</email>
+    </extension>
+</addon>
+
+<addon id="plugin.video.youtube.quickplay" name="YouTube QuickPlay" version="1.0.1" provider-name="AddonScriptorDE">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="plugin.video.youtube" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Type in any search query and the Top50 results will be played automatically. You also have some options: Play randomly, Only play unwatched, Search order/period</summary>
+        <language></language>
+        <description lang="en">Type in any search query and the Top50 results will be played automatically. You also have some options: Play randomly, Only play unwatched, Search order/period</description>
+        <website>http://www.youtube.com</website>
+        <source>https://github.com/AddonScriptorDE/plugin.video.youtube.jukebox</source>
+        <forum>http://forum.xbmc.org/showthread.php?tid=</forum>
+        <email>AddonScriptorDE at yahoo dot de</email>
+    </extension>
+</addon>
+
+<addon id="plugin.video.zdf_de_lite" name="ZDF Mediathek" version="2.1.1" provider-name="AddonScriptorDE">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="de">ZDF, ZDFneo, ZDFkultur, ZDFinfo und 3sat Mediathek</summary>
+        <summary lang="en">ZDF, ZDFneo, ZDFkultur, ZDFinfo and 3sat Media Library</summary>
+        <language>de</language>
+        <description lang="de">ZDF, ZDFneo, ZDFkultur, ZDFinfo und 3sat Mediathek</description>
+        <description lang="en">ZDF, ZDFneo, ZDFkultur, ZDFinfo and 3sat Media Library</description>
+        <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+        <website>http://www.zdf.de</website>
+        <source>https://github.com/AddonScriptorDE/plugin.video.zdf_de_lite</source>
+        <forum>http://forum.xbmc.org/showthread.php?tid=132563</forum>
+        <email>AddonScriptorDE at yahoo dot de</email>
+    </extension>
+</addon>
+
+<addon id="repository.addonscriptorde-beta" name="AddonScriptorDE's Testing Repo" version="1.0.1" provider-name="AddonScriptorDE">
+	<extension point="xbmc.addon.repository" name="AddonScriptorDE's Testing Repo">
+		<info compressed="false">http://addonscriptorde-beta-repo.googlecode.com/svn/trunk/addons.xml</info>
+		<checksum>http://addonscriptorde-beta-repo.googlecode.com/svn/trunk/addons.xml.md5</checksum>
+		<datadir zip="false">http://addonscriptorde-beta-repo.googlecode.com/svn/trunk/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Add-ons and updates that are not (yet) available via the xbmc.org repo</summary>
+		<description>Add-ons and updates that are not (yet) available via the xbmc.org repo</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.screensaver.apple_itunes_trailer" name="Video Screensaver: iTunes Trailers" version="1.0.9" provider-name="AddonScriptorDE">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.ui.screensaver" library="screensaver.py"/>
+  <extension point="xbmc.python.pluginsource" library="default.py"/>
+  <extension point="xbmc.addon.metadata">
+	<language></language>
+    <platform>all</platform>
+    <language>en</language>
+    <summary lang="en">Randomly play current trailers/teasers/clips from Apple iTunes - Choose quality and genres</summary>
+    <description lang="en">Randomly play current trailers/teasers/clips from Apple iTunes - Choose quality and genres</description>
+	  <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+	  <forum>http://forum.xbmc.org/showthread.php?tid=</forum>
+    <website>http://trailers.apple.com</website>
+    <email>AddonScriptorDE at yahoo dot de</email>
+    <source>https://github.com/AddonScriptorDE/script.screensaver.apple_itunes_trailer</source>
+  </extension>
+</addon>
+
+<addon id="script.screensaver.infinitylist_com" name="Video Screensaver: InfinityList.com" version="1.0.7" provider-name="AddonScriptorDE">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="plugin.video.vimeo" version="2.3.0"/>
+  </requires>
+  <extension library="screensaver.py" point="xbmc.ui.screensaver"/>
+  <extension point="xbmc.addon.metadata">
+	<language></language>
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en">Randomly play videos from InfinityList.com - Choose genre via the add-on settings</summary>
+    <description lang="en">Randomly play videos from InfinityList.com - Choose genre via the add-on settings</description>
+	  <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+	  <forum>http://forum.xbmc.org/showthread.php?tid=</forum>
+    <website>http://www.infinitylist.com</website>
+    <email>AddonScriptorDE at yahoo dot de</email>
+    <source>https://github.com/AddonScriptorDE/script.screensaver.infinitylist_com</source>
+  </extension>
+</addon>
+
+<addon id="script.screensaver.reddit_com" name="Video/Image Screensaver: Reddit.com" version="1.0.8" provider-name="AddonScriptorDE">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.image.reddit_com" version="1.0.0"/>
+    <import addon="plugin.video.reddit_tv" version="1.0.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="plugin.video.vimeo" version="2.3.0"/>
+    <import addon="plugin.video.dailymotion_com" version="1.0.0"/>
+  </requires>
+  <extension library="screensaver.py" point="xbmc.ui.screensaver"/>
+  <extension point="xbmc.addon.metadata">
+	<language></language>
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en">Watch Hot100 Reddit videos/images - Choose reddit and category (Hot, Top, Comments, New)</summary>
+    <description lang="en">Watch Hot100 Reddit videos/images - Choose reddit and category (Hot, Top, Comments, New)</description>
+	  <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+	  <forum>http://forum.xbmc.org/showthread.php?tid=170347</forum>
+    <website>http://www.reddit.com</website>
+    <email>AddonScriptorDE at yahoo dot de</email>
+    <source>https://github.com/AddonScriptorDE/script.screensaver.redit_com</source>
+  </extension>
+</addon>
+
+<addon id="script.screensaver.smart_playlist" name="Video/Audio Screensaver: SmartPlaylist" version="1.0.5" provider-name="AddonScriptorDE">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.ui.screensaver" library="screensaver.py"/>
+  <extension point="xbmc.addon.metadata">
+	<language></language>
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en">Play any SmartPlaylist as a screensaver</summary>
+    <description lang="en">Play any SmartPlaylist as a screensaver</description>
+	  <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+	  <forum>http://forum.xbmc.org/showthread.php?tid=</forum>
+    <website></website>
+    <email>AddonScriptorDE at yahoo dot de</email>
+    <source>https://github.com/AddonScriptorDE/script.screensaver.smart_playlist</source>
+  </extension>
+</addon>
+
+<addon id="script.screensaver.video_folder" name="Video/Audio Screensaver: Directory" version="1.1.1" provider-name="AddonScriptorDE">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.ui.screensaver" library="screensaver.py"/>
+  <extension point="xbmc.addon.metadata">
+	<language></language>
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en">Play random video/audio files from a directory</summary>
+    <description lang="en">Play random video/audio files from a directory</description>
+	  <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+	  <forum>http://forum.xbmc.org/showthread.php?tid=</forum>
+    <website></website>
+    <email>AddonScriptorDE at yahoo dot de</email>
+    <source>https://github.com/AddonScriptorDE/script.screensaver.video_folder</source>
+  </extension>
+</addon>
+
+<addon id="script.subcentral_de" name="SubCentral.de" version="1.1.0" provider-name="AddonScriptorDE">
+  <extension point="xbmc.python.subtitles" library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">SubCentral.de - Quality subtitles for TV-Shows (DE/EN)</summary>
+    <summary lang="de">SubCentral.de - Hochwertige Untertitel fÃ¼r TV-Serien (DE/EN)</summary>
+    <description lang="en">SubCentral.de - Quality subtitles for TV-Shows (DE/EN)</description>
+    <description lang="de">SubCentral.de - Hochwertige Untertitel fÃ¼r TV-Serien (DE/EN)</description>
+    <website></website>
+    <source>https://github.com/AddonScriptorDE/script.subcentral_de</source>
+    <forum>http://forum.xbmc.org/showthread.php?tid=157479</forum>
+    <email>AddonScriptorDE at yahoo dot de</email>
+    <platform>all</platform>
+  </extension>
+</addon>
+</addons>
